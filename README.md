@@ -58,4 +58,4 @@ python3 voxelmotionviewer.py
 ```
 
 # How to test?
-In the test_data folder there is a compressed .tar.xz file containing around 540 frames from 4 cameras (135 frames per camera) and a properly adjusted frame_metadata.json compatible with both the rust and original C++ code. Output will be almost the same as there are small differences due to how its built but essentially the rays will be pointing at the same point.
+In the test_data folder there is a compressed .tar.xz file containing around 540 frames from 4 cameras (135 frames per camera) and a properly adjusted `frame_metadata.json` compatible with both the **rust** and **original C++ code**. Output will be almost the same as there are small differences due to how its built but essentially the rays will be pointing at the same point.
