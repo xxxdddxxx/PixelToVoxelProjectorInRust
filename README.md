@@ -59,3 +59,8 @@ python3 voxelmotionviewer.py
 
 # How to test?
 In the test_data folder there is a compressed .tar.xz file containing around 540 frames from 4 cameras (135 frames per camera) and a properly adjusted `frame_metadata.json` compatible with both the **rust** and **original C++ code**. Output will be almost the same as there are small differences due to how its built but essentially the rays will be pointing at the same point.
+
+# Results of SVG Pixel To Voxel Projector version
+The visualization was made with a custom viewer specifically for SVG output format
+<img width="2559" height="1530" alt="image" src="https://github.com/user-attachments/assets/ea38f70f-d404-4488-a002-fbb65ac5e379" />
+
